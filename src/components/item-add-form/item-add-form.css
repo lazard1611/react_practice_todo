@@ -1,0 +1,25 @@
+.todo_form {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-wrap: wrap;
+
+    margin-bottom: 6px;
+}
+
+.todo_form__input {
+    flex: auto;
+    margin-right: 8px;
+
+    font-size: 20px;
+    padding: 5px 10px;
+
+    border: 1px solid black;
+    border-radius: 2px;
+}
+
+.todo_form__btn {
+    padding: 8px;
+    text-transform: uppercase;
+    cursor: pointer;
+}

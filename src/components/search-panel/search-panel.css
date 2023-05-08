@@ -1,0 +1,25 @@
+.todo__input_row {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.todo__input_wrap {
+    flex-grow: 1;
+}
+
+.todo__input_wrap:not(:last-child) {
+    margin-right: 4px;
+}
+
+.todo__input {
+    width: 100%;
+    padding: 5px 10px;
+
+    font-size: 20px;
+}
+
+.todo__input_row:not(last-child) {
+    margin-bottom: 10px;
+}

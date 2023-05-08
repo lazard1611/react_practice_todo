@@ -1,0 +1,21 @@
+.todo_head {
+}
+
+.todo_head:not(last-child) {
+    margin-bottom: 25px;
+}
+
+.todo_head__title {
+    font-size: 26px;
+    font-weight: 700;
+    padding-right: 10px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.todo_head__descrip {
+    padding-left: 10px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #282828;
+}
